@@ -13,6 +13,16 @@ The creation of MtbRf aims to broaden molecular genomic studies of Mycobacterium
 - `mtbrf.fa`: This FASTA file contains the reference genome sequence of MtbRf.
 - `mtbrf.gff`: This GFF file contains the annotations for the MtbRf reference genome.
 
+## Performance
+### Median mapping rate by *Mycobacterium tuberculosis* lineages
+| **Lineage** | **H37Rv (NC_000962.3)** | **MtbRf** |
+|-------------|---------------------------|-------------|
+| _L1_        | 99.19%                    | 99.74%      |
+| _L2_        | 99.42%                    | 99.77%      |
+| _L3_        | 99.36%                    | 99.71%      |
+| _L4_        | 99.48%                    | 99.81%      |
+| All         | 99.33%                    | 99.73%      |
+
 ## Future Updates
 This repository is currently a preliminary version and will be updated continuously with improvements to the MtbRf genome and additional analysis code.
 

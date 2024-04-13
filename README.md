@@ -15,7 +15,7 @@ The creation of MtbRf aims to broaden molecular genomic studies of Mycobacterium
 
 ## Performance
 ### Median mapping rate by *Mycobacterium tuberculosis* lineages
-| **Lineage** | **H37Rv (NC_000962.3)** | **MtbRf** |
+| **Lineage** | **H37Rv (GCA_000195955.2)** | **MtbRf (GCA_963525475.1)** |
 |-------------|---------------------------|-------------|
 | _L1_        | 99.19%                    | 99.74%      |
 | _L2_        | 99.42%                    | 99.77%      |

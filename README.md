@@ -3,30 +3,40 @@
 Data and code for creating and analyzing MtbRf, a novel pan-lineage reference genome of _Mycobacterium tuberculosis_.
 
 ## About This Repository
-This repository contains the data and source code associated with our research paper titled "MtbRf: A Pan-Lineage Reference Genome of _Mycobacterium tuberculosis_". It includes the reference genome sequence (`mtbrf.fa`) and the corresponding annotations (`mtbrf.gff`) for MtbRf, which were generated using the method described in the paper and the NCBI Prokaryotic Genome Annotation Pipeline (PGAP), respectively.
 
-The sequence and annotation files represent the foundation of our work and will be continuously updated as our research progresses. Therefore, this repository should be considered a preliminary version.
+This repository contains the data and source code associated with the research paper titled "Pan-Lineage *Mycobacterium tuberculosis* Reference Genome for Enhanced Molecular Diagnosis". It includes the reference genome sequence (`mtbrf.fa`) and the corresponding annotations (`mtbrf.gff`) for MtbRf, which were generated using the method described in the paper and the NCBI Prokaryotic Genome Annotation Pipeline (PGAP), respectively.
 
-The creation of MtbRf aims to broaden molecular genomic studies of Mycobacterium tuberculosis (MTB) to include lineage-specific analysis, consequently filling the research gap between MTB lineages. Additionally, MtbRf provides yet unaccounted information associated with drug resistance, hence, it is a critical resource for future research in this field.
+The creation of MtbRf aims to broaden molecular genomic studies of _Mycobacterium tuberculosis_ (MTB) to include lineage-specific analysis, consequently filling the research gap between MTB lineages. Additionally, MtbRf provides yet unaccounted information associated with drug resistance, making it a critical resource for future research in this field.
 
-## Repository Contents
+## Navigation
+
 - `mtbrf.fa`: This FASTA file contains the reference genome sequence of MtbRf.
 - `mtbrf.gff`: This GFF file contains the annotations for the MtbRf reference genome.
+- `commands`: This directory contains various scripts for analysis pipelines.
+- `data`: This directory contains related data files.
+
+## Associated Links
+
+The MtbRf reference genome is accessible with accession number `GCA_963525475` in public databases:
+- EBI: https://www.ebi.ac.uk/ena/browser/view/GCA_963525475
+- NCBI: https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_963525475
+
+The WGS data for this project is accessible with accession number `PRJEB66375`:
+- EBI: https://www.ebi.ac.uk/ena/browser/view/PRJEB66375
+- NCBI: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB66375
 
 ## Performance
+
 ### Median mapping rate by *Mycobacterium tuberculosis* lineages
-| **Lineage** | **H37Rv (GCA_000195955.2)** | **MtbRf (GCA_963525475.1)** |
-|-------------|---------------------------|-------------|
-| _L1_        | 99.19%                    | 99.74%      |
-| _L2_        | 99.42%                    | 99.77%      |
-| _L3_        | 99.36%                    | 99.71%      |
-| _L4_        | 99.48%                    | 99.81%      |
-| All         | 99.33%                    | 99.73%      |
 
-## Future Updates
-This repository is currently a preliminary version and will be updated continuously with improvements to the MtbRf genome and additional analysis code.
+| **Lineage** | **MtbRf (GCA_963525475.1)** | **H37Rv-1 (GCA_026185275.1)** | **H37Rv (GCA_000195955.2)** |
+|-------------|-----------------------------|-------------------------------|-----------------------------|
+| _L1_        | 99.74%                      | 99.20%                        | 99.19%                      |
+| _L2_        | 99.77%                      | 99.43%                        | 99.42%                      |
+| _L3_        | 99.71%                      | 99.37%                        | 99.36%                      |
+| _L4_        | 99.81%                      | 99.49%                        | 99.48%                      |
+| All         | 99.73%                      | 99.34%                        | 99.33%                      |
 
-We welcome your interest and contributions to this ongoing project.
+## Citation
 
-## Reference
-The MtbRf genome and the associated data and code in this repository are part of a research project that is currently under review. Once the paper is accepted and published, we will update this section with full citation details.
+Currently under review.

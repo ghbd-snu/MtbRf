@@ -4,18 +4,18 @@ Data and code for creating and analyzing MtbRf, a novel pan-lineage reference ge
 
 ## About This Repository
 
-This repository contains the data and source code associated with the research paper titled "Pan-Lineage *Mycobacterium tuberculosis* Reference Genome for Enhanced Molecular Diagnosis". It includes the reference genome sequence (`mtbrf.fa`) and the corresponding annotations (`mtbrf.gff`) for MtbRf, which were generated using the method described in the paper and the NCBI Prokaryotic Genome Annotation Pipeline (PGAP), respectively.
+This repository contains the data and source code associated with the research paper titled "Pan-Lineage _Mycobacterium tuberculosis_ Reference Genome for Enhanced Molecular Diagnosis". It includes the reference genome sequence (`mtbrf.fa`) and the corresponding annotations (`mtbrf.gff`) for MtbRf, which were generated using the method described in the paper and the NCBI Prokaryotic Genome Annotation Pipeline (PGAP), respectively.
 
 The creation of MtbRf aims to broaden molecular genomic studies of _Mycobacterium tuberculosis_ (MTB) to include lineage-specific analysis, consequently filling the research gap between MTB lineages. Additionally, MtbRf provides yet unaccounted information associated with drug resistance, making it a critical resource for future research in this field.
 
 ## Navigation
 
-- `mtbrf.fa`: This FASTA file contains the reference genome sequence of MtbRf.
-- `mtbrf.gff`: This GFF file contains the annotations for the MtbRf reference genome.
-- `commands`: This directory contains various scripts for analysis pipelines.
-- `data`: This directory contains related data files.
+- `mtbrf.fa`: FASTA file for the sequence of MtbRf.
+- `mtbrf.gff`: GFF formatted annotations for MtbRf.
+- `scripts`: Directory containing scripts for analysis pipelines.
+- `data`: Directory for related data.
 
-## Associated Links
+### Associated Links
 
 The MtbRf reference genome is accessible with accession number `GCA_963525475` in public databases:
 - EBI: https://www.ebi.ac.uk/ena/browser/view/GCA_963525475
@@ -27,7 +27,7 @@ The WGS data for this project is accessible with accession number `PRJEB66375`:
 
 ## Performance
 
-### Median mapping rate by *Mycobacterium tuberculosis* lineages
+### Median mapping rate by _Mycobacterium tuberculosis_ lineages
 
 | **Lineage** | **MtbRf (GCA_963525475.1)** | **H37Rv-1 (GCA_026185275.1)** | **H37Rv (GCA_000195955.2)** |
 |-------------|-----------------------------|-------------------------------|-----------------------------|

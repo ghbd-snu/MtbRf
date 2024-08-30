@@ -39,4 +39,4 @@ The WGS data for this project is accessible with accession number `PRJEB66375`:
 
 ## Citation
 
-Currently under review.
+Kunhyung Bahk, Joohon Sung, Mitsuko Seki, Kyungjong Kim, Jina Kim, Hongjo Choi, Jake Whang, Satoshi Mitarai, Pan-lineage *Mycobacterium tuberculosis* reference genome for enhanced molecular diagnosis, *DNA Research*, Volume 31, Issue 4, August 2024, dsae023, https://doi.org/10.1093/dnares/dsae023
